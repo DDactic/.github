@@ -19,10 +19,15 @@ A typical engagement:
 
 ## Coverage
 
-- **233 attack mechanisms** across 23 protocol families: HTTP/1.1, HTTP/2, HTTP/3 (QUIC), gRPC, WebSocket, plus L3 volumetric and L4 TCP/UDP variants.
+- **233 attack mechanisms** across 23 protocol families: HTTP/1.1, HTTP/2, HTTP/3 (QUIC), gRPC, WebSocket, plus L3 volumetric and L4 TCP/UDP variants. The public subset is open-sourced as [`attack-effectiveness-matrix`](https://github.com/DDactic/attack-effectiveness-matrix) and [`ddos-attack-taxonomy`](https://github.com/DDactic/ddos-attack-taxonomy).
 - **25+ CDN/WAF/bot-management vendors** fingerprinted: Cloudflare, Akamai, Imperva/Incapsula, AWS WAF/Shield, Azure Front Door, Google Cloud Armor, Fastly, F5 BIG-IP, Radware, Sucuri, DataDome, PerimeterX/HUMAN, Distil/Imperva Bot, Arkose, hCaptcha, GeeTest, Kasada, Reblaze, ShieldSquare and others.
 - **Mobile attack surface**: Android (APK static + dynamic Frida instrumentation) and iOS (IPA static analysis).
 - **Breach correlation**: HIBP, DeHashed, LeakCheck, LeakIX, Hudson Rock infostealer feeds.
+
+## Featured Research
+
+- [**attack-effectiveness-matrix**](https://github.com/DDactic/attack-effectiveness-matrix) — 213 DDoS attack vectors mapped against 6 protection architectures at 3 configuration levels. Vendor-neutral, citable dataset under CC-BY-4.0. Companion to the taxonomy below.
+- [**ddos-attack-taxonomy**](https://github.com/DDactic/ddos-attack-taxonomy) — Reader-friendly model of how DDoS attacks actually work: 5 resources to exhaust, 23 fundamental mechanisms, the HTTP version multiplier, per-mechanism mitigation playbooks, architecture buyer's guide.
 
 ## Open-source projects
 
