@@ -53,4 +53,4 @@ A typical engagement:
 - [Mastodon (infosec.exchange)](https://infosec.exchange/@ddactic)
 - [Telegram](https://t.me/ddactic)
 
-Founded by Stav David, ex-Red Button engineer. Headquartered in Israel, serving customers worldwide.
+Founded by Stav David, DDoS-resilience engineer with three years in the field. Headquartered in Israel, serving customers worldwide.
