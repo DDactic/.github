@@ -1,6 +1,6 @@
 # DDactic
 
-> Automated DDoS resilience testing and attack-surface analysis. We discover the assets your DDoS protection misses, simulate L3-L7 attacks from a multi-cloud lab fleet, and produce a vendor-specific hardening playbook validated by stage-reprobe.
+> Automated DDoS resilience testing and hardening. We find the weak points your DDoS protection misses, simulate L3-L7 attacks from a 24 cloud provider fleet, let you apply the vendor fix in one click during the simulation, then re-attack to prove the gap is closed.
 
 [ddactic.net](https://ddactic.net) | [Free attack surface scan](https://ddactic.net/free-scan) | [Live DDoS challenge](https://challenge.ddactic.net) | [llms.txt](https://ddactic.net/llms.txt)
 
@@ -14,8 +14,8 @@ A typical engagement:
 
 1. **Passive scan** — domain in, attack-surface report out in minutes. No customer infrastructure touched.
 2. **Test plan** — per-target DDoS simulation matrix prioritized against the customer's actual stack (CDN tier, origin exposure, breach-intel context).
-3. **Authorized live simulation** — signed Authorization-to-Test, controlled IP ranges across 23+ cloud providers, kill-switch, no spoofing.
-4. **Hardening playbook** — vendor-specific config templates with stage-reprobe validation after the customer applies the changes.
+3. **Authorized live simulation** — signed Authorization-to-Test, controlled IP ranges across 24 cloud providers, kill-switch, no spoofing.
+4. **One-click hardening** — apply the vendor-specific fix during the simulation across 13 providers (Cloudflare, AWS, Azure, Akamai, Imperva, Radware and more), with rollback, then an automatic re-attack to confirm the gap is closed.
 
 ## Coverage
 
